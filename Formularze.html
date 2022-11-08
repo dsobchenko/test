@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formularze</title>
+</head>
+<body>
+<form action="mailto:wspisowsip.pl">
+    Imię
+    <br><input type="text" name="Imię">
+    <br>Nazwisko:
+    <br><input type="text" name="nazwisko">
+    <br>Płeć
+    <br><input type="radio" name="płeć">kobieta
+    <input type="radio" name="płeć">Mężczyzna
+    <br>Wiek
+    <br><select name="wiek">
+    <option>0-17</option>
+    <option>18-40</option>
+    <option>41-60</option>
+</select>
+    <br>Uwagi
+    <br><textarea rows="6" cols="17">Wpisz uwagi
+</textarea>
+    <br><input type="submit" value="Wyslij">
+</form>
+<br>
+<br>
+<hr size="20px" color="black">
+
+<form method="post" enctype="text/plain" action="">
+    Wybierz jęnzyk:
+    <select name="jenzyk" multiple="multiple">
+        <option value="angielski">J.angielski</option>
+        <option value="nimiecki">J.niemecki</option>
+        <option value="francuzki">J.francuzki</option>
+        <option value="hiszpanski">J.hiszpanski</option>
+        <option value="rosyjski">J.rosyjski</option>
+    </select>
+</form>
+<br>
+<br>
+<hr size="20px" color="black">
+
+<form method="post" enctype="text/plain" action="">
+    <select name="klasa" size="8">
+        <optgroup label="Dziewczęta">
+            <option value="1">12-14</option>
+            <option value="2">15-17</option>
+            <option value="3">powyżej 18 lat</option>
+        </optgroup>
+        <optgroup label="Chłopcy">
+            <option value="1">12-14</option>
+            <option value="2">15-17</option>
+            <option value="3">powyżej 18 lat</option>
+        </optgroup>
+    </select>
+    </select>
+    <br>
+    <br>
+    <hr size="20px" color="black">
+</form>
+
+<form  mathod="POST">
+    <label>E-mail: <input type=email
+                          placeholder="wpisz adres e-mail">
+    </label><br>
+    <label>Szukaj <input type="search"
+                         placeholder="wpisz szukany tekst"></label><br>
+    <label>wybiesz wartość od 1 do 5<input type="range" name="" min="1" max="5"
+                                           value="1"/><br>
+        lub<br>
+        <input type="number" name="quantity" min="1" max="5"></label><br>
+    <label>Wybirz kolor<input type="color"></label><br>
+    <label>Wprowadż datę urodzin<input type="date" max="2015-01-01"></label><br>
+</form>
+</body>
+</html>
